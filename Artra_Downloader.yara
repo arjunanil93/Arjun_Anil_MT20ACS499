@@ -1,4 +1,4 @@
-rule search_exe
+rule search_artra
 {
 meta:
 	author = "Arjun Anil"
