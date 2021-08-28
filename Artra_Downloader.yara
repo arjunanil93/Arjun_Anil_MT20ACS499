@@ -2,7 +2,6 @@ rule search_artra
 {
 meta:
 	author = "Arjun Anil"
-	date = "2021-08-26"
 	description = "To find malwares coming under Artra Downloader"
 
 strings:
