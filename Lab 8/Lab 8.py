@@ -47,7 +47,7 @@ def Read_Hash():
     fileexists(file_name)
     hash_list=hash_file.readlines()
     key='b6b2ad110a16db444901ca9405d7eab313db793eafa90c0f149b3371d7593f1b'
-    with open('malware.csv', 'a', newline='', encoding='utf-8') as csvfile:
+    with open(file_name, 'a', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['File', 'Positives', 'Scan_Date', 'SHA256']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
